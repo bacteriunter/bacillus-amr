@@ -1,0 +1,9 @@
+BACILLUS AMR PROJECT
+STEP 22 - INTEGRATED LOCAL MOBILITY EVIDENCE
+
+Physical AMR loci: 41
+IS-associated proteins: 13
+Transposon-associated recombinase/resolvase proteins: 1
+Total mobility-associated proteins: 14
+AMR loci with >=1 local mobility-associated protein: 10
+AMR loci without detected local mobility-associated protein: 31

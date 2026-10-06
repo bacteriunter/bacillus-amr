@@ -1,0 +1,79 @@
+BACILLUS AMR PROJECT
+FINAL PLANT-ASSOCIATION METADATA SELECTION
+======================================================================
+
+Candidate assemblies evaluated: 2550
+
+Final decisions:
+plant_final_decision
+INCLUDE       1374
+UNRESOLVED    1008
+EXCLUDE        168
+
+Evidence categories:
+plant_final_evidence
+isolation_source           1250
+insufficient_metadata       622
+unresolved_project          386
+incompatible_source         149
+documented_project           79
+other_explicit_metadata      45
+manual_exclusion             19
+
+Selected assemblies by BioProject (top 20):
+Assembly BioProject Accession
+PRJNA400804     282
+PRJNA1078443    154
+PRJNA858971      28
+PRJNA1011052     19
+PRJNA1055760     16
+PRJEB93985       16
+PRJNA1133887     14
+PRJNA436554      12
+PRJNA1509696     12
+PRJNA1166736     12
+PRJNA1139421     11
+PRJEB101276      11
+PRJNA960711      10
+PRJNA1178861      9
+PRJNA802201       9
+PRJNA761700       8
+PRJNA1299421      6
+PRJNA1199959      6
+PRJNA1290071      6
+PRJNA1095867      5
+
+Selected assemblies by organism (top 30):
+Organism Name
+Bacillus velezensis                  287
+Bacillus thuringiensis               153
+Bacillus cereus                      130
+Bacillus toyonensis                   95
+Bacillus subtilis                     93
+Bacillus safensis                     51
+Bacillus altitudinis                  46
+Bacillus wiedmannii                   44
+Bacillus halotolerans                 38
+Bacillus pseudomycoides               37
+Bacillus amyloliquefaciens            35
+Bacillus pumilus                      34
+Bacillus mycoides                     20
+Bacillus licheniformis                20
+Bacillus paralicheniformis            19
+Bacillus subtilis subsp. subtilis     10
+Bacillus atrophaeus                   10
+Bacillus paranthracis                  9
+Bacillus tropicus                      7
+Bacillus spizizenii                    7
+Bacillus tequilensis                   6
+Bacillus siamensis                     5
+Bacillus stercoris                     5
+Bacillus nitratireducens               4
+Bacillus anthracis                     4
+Bacillus albus                         3
+Bacillus inaquosorum                   3
+Bacillus cabrialesii                   2
+Bacillus paramobilis                   2
+Bacillus paramycoides                  2
+
+IMPORTANT: UNRESOLVED records are retained in the audit table but are not included in the analytical dataset.

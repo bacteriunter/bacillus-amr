@@ -1,0 +1,18 @@
+Section	Metric	Value
+Dataset selection	Plant-associated candidate assemblies	2,550
+Dataset selection	Assemblies selected after plant-association assessment	1,374
+Dataset selection	Assemblies retained after structural QC	1,312
+Dataset selection	Assemblies excluded by structural QC	62
+Genome quality and taxonomy	Contigs per genome, median (range)	34 (1–499)
+Genome quality and taxonomy	Genome length, median Mb (range)	4.22 (3.55–6.97)
+Genome quality and taxonomy	N50, median kb (range)	536.1 (23.1–6311.2)
+Genome quality and taxonomy	GC content, median % (range)	41.56 (28.83–46.89)
+Genome quality and taxonomy	Species-level assignments	1,159
+Genome quality and taxonomy	Genus-level Bacillus sp. assignments	153
+Genome quality and taxonomy	Named species represented	44
+Global resistome	Genomes with ≥1 AMR determinant	1,181 (90.0%)
+Global resistome	Genomes without detected AMR determinants	131 (10.0%)
+Global resistome	AMR hits	3,913
+Global resistome	Unique AMR determinants	36
+Global resistome	AMR determinants per genome, mean ± SD	2.92 ± 2.05
+Global resistome	AMR determinants per genome, median (range)	2 (0–9)

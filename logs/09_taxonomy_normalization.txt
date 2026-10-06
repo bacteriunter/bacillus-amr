@@ -1,0 +1,8 @@
+BACILLUS AMR PROJECT
+STEP 09 - TAXONOMIC NAME NORMALIZATION
+
+QC-passed genomes: 1312
+Species-level genomes: 1159
+Genus-level Bacillus sp.: 153
+Unresolved: 0
+Normalized named species: 44

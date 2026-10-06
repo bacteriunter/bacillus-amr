@@ -1,0 +1,228 @@
+IQ-TREE version 3.1.2 for Linux x86 64-bit built May 17 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    GWCC51416 (AVX512, FMA3, 3 GB RAM)
+Command: /home/bacte/miniconda3/envs/bacillus_ecogenomics/bin/iqtree -s 06_phylogeny/Aligned_SCGs_subset87.faa -m TESTONLY -T 4 --prefix 06_phylogeny/iqtree_subset87/modelfinder
+Seed:    781736 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Oct  5 19:12:53 2026
+Kernel:  AVX+FMA - 4 threads (8 CPU cores detected)
+
+Reading alignment file 06_phylogeny/Aligned_SCGs_subset87.faa ... Fasta format detected
+Reading fasta file: done in 0.0196679 secs using 99.12% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.0358779 secs using 347.4% CPU
+WARNING: 594 sites contain only gaps or ambiguous characters.
+Alignment has 87 sequences with 23930 columns, 8194 distinct patterns
+9078 parsimony-informative, 239 singleton sites, 14613 constant sites
+                 Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00139689 secs using 304% CPU
+   1  GCF_000262385.1    5.65%    passed     87.97%
+   2  GCF_000385965.2    4.97%    passed     91.63%
+   3  GCF_000444215.1    5.50%    passed     91.38%
+   4  GCF_000465655.1    4.77%    passed     91.33%
+   5  GCF_000706705.1    2.65%    passed     88.65%
+   6  GCF_000786145.2    4.77%    passed     89.90%
+   7  GCF_000817575.1    5.00%    passed     83.45%
+   8  GCF_000931375.1    3.42%    passed     93.19%
+   9  GCF_001017635.1    5.15%    passed     91.97%
+  10  GCF_001029865.1    2.61%    passed     78.88%
+  11  GCF_001275045.2    5.01%    passed     82.50%
+  12  GCF_001578205.1    4.33%    passed     61.22%
+  13  GCF_001579695.1    4.94%    passed     88.30%
+  14  GCF_001617995.1    4.77%    passed     82.40%
+  15  GCF_001625135.1    2.65%    passed     85.90%
+  16  GCF_001678165.1    9.88%    passed     89.88%
+  17  GCF_001756265.1    5.62%    passed     97.96%
+  18  GCF_001757695.1    3.74%    passed     92.64%
+  19  GCF_001757745.1    2.77%    passed     92.32%
+  20  GCF_001757785.1    4.55%    passed     94.79%
+  21  GCF_001757835.1    4.03%    passed     98.75%
+  22  GCF_001876545.1    7.70%    passed     83.80%
+  23  GCF_001876555.1    6.27%    passed     65.78%
+  24  GCF_002068155.1    3.38%    passed     75.80%
+  25  GCF_002214765.1    3.74%    passed     93.90%
+  26  GCF_002243495.1    5.00%    passed     95.34%
+  27  GCF_002550225.1    2.76%    passed     97.11%
+  28  GCF_002550355.1    4.33%    passed     80.29%
+  29  GCF_002550525.1    5.01%    passed     83.89%
+  30  GCF_002550685.1    5.54%    passed     57.83%
+  31  GCF_002552785.1    4.03%    passed     84.91%
+  32  GCF_002553115.1    4.34%    passed     66.02%
+  33  GCF_002555155.1    3.90%    passed     95.09%
+  34  GCF_002555265.1    2.76%    passed     97.28%
+  35  GCF_002555305.1    3.90%    passed     94.00%
+  36  GCF_002555385.1    3.92%    passed     93.53%
+  37  GCF_002555545.1    3.69%    passed     68.79%
+  38  GCF_002558235.1    5.62%    passed     96.59%
+  39  GCF_002566845.1    2.77%    passed     71.44%
+  40  GCF_002567785.1    2.77%    passed     79.14%
+  41  GCF_002568725.1    5.01%    passed     83.09%
+  42  GCF_002575305.1    4.89%    passed     96.37%
+  43  GCF_002575365.1    4.89%    passed     96.29%
+  44  GCF_002575895.1    2.76%    passed     97.68%
+  45  GCF_002580975.1    4.03%    passed     82.44%
+  46  GCF_002583515.1    2.77%    passed     71.68%
+  47  GCF_002741745.1    3.27%    passed     85.80%
+  48  GCF_002849425.1    3.35%    passed     71.99%
+  49  GCF_002914545.1    2.62%    passed     85.26%
+  50  GCF_002993735.1    4.25%    passed     84.93%
+  51  GCF_002993745.1    2.62%    passed     88.07%
+  52  GCF_002993765.1    5.61%    passed     94.61%
+  53  GCF_002998055.1    5.00%    passed     95.83%
+  54  GCF_002998315.1    4.33%    passed     74.85%
+  55  GCF_003064485.1    2.61%    passed     80.18%
+  56  GCF_003171815.2    3.68%    passed     77.19%
+  57  GCF_003854915.1    4.77%    passed     83.81%
+  58  GCF_004294525.1   11.43%    passed     74.60%
+  59  GCF_004294535.1    2.65%    passed     87.72%
+  60  GCF_006351625.1    4.77%    passed     86.24%
+  61  GCF_008244765.1    4.76%    passed     86.56%
+  62  GCF_013348705.1    4.77%    passed     86.73%
+  63  GCF_016767285.1    2.62%    passed     89.97%
+  64  GCF_017824715.1    4.77%    passed     84.33%
+  65  GCF_020908045.1    4.33%    passed     89.33%
+  66  GCF_022370935.1    4.77%    passed     86.73%
+  67  GCF_024495135.1    6.27%    passed     96.39%
+  68  GCF_029958265.1    3.65%    passed     66.71%
+  69  GCF_031324265.1    4.77%    passed     85.88%
+  70  GCF_036621235.1    2.77%    passed     93.34%
+  71  GCF_036621275.1    2.76%    passed     96.24%
+  72  GCF_036621295.1    3.74%    passed     92.14%
+  73  GCF_036621315.1    2.76%    passed     96.24%
+  74  GCF_036621355.1    3.40%    passed     94.71%
+  75  GCF_036962425.1    4.03%    passed     84.78%
+  76  GCF_036963245.1    5.63%    passed     97.77%
+  77  GCF_036966405.1    2.61%    passed     75.59%
+  78  GCF_040151275.1    2.65%    passed     84.17%
+  79  GCF_040492755.1    4.32%    passed     81.47%
+  80  GCF_040492895.1    4.33%    passed     76.58%
+  81  GCF_045924925.1    4.77%    passed     84.67%
+  82  GCF_046269165.1    2.60%    passed     74.20%
+  83  GCF_050445565.1    4.77%    passed     85.03%
+  84  GCF_053895045.1    3.41%    passed     89.48%
+  85  GCF_059147205.1    4.77%    passed     84.78%
+  86  GCF_060371875.1    3.69%    passed     75.22%
+  87  GCF_977015535.1    4.77%    passed     85.28%
+****  TOTAL              4.28%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: GCF_022370935.1 is identical to GCF_013348705.1 but kept for subsequent analysis
+NOTE: GCF_036621315.1 is identical to GCF_036621275.1 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00411415 secs using 315.7% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.333 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -197816.943
+Optimal log-likelihood: -197816.408
+Proportion of invariable sites: 0.314
+Gamma shape alpha: 0.598
+Parameters optimization took 1 rounds (4.384 sec)
+Time for fast ML tree search: 26.281 seconds
+
+NOTE: ModelFinder requires 441 MB RAM!
+ModelFinder will test up to 224 protein models (sample size: 23930 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            206837.712   171 414017.425   414019.901   415399.599
+  2  LG+I          199695.361   172 399734.722   399737.227   401124.978
+  3  LG+G4         198043.151   172 396430.302   396432.807   397820.558
+  4  LG+I+G4       197812.473   173 395970.946   395973.480   397369.286
+  8  LG+F+I+G4     197222.728   192 394829.457   394832.579   396381.371
+ 12  WAG+I+G4      198835.167   173 398016.334   398018.868   399414.674
+ 16  WAG+F+I+G4    197809.811   192 396003.623   396006.745   397555.537
+ 20  JTT+I+G4      198399.384   173 397144.769   397147.303   398543.108
+ 24  JTT+F+I+G4    197296.547   192 394977.094   394980.216   396529.008
+ 28  Q.PFAM+I+G4   198185.189   173 396716.378   396718.912   398114.718
+ 32  Q.PFAM+F+I+G4 197408.953   192 395201.906   395205.028   396753.820
+ 36  Q.BIRD+I+G4   200081.390   173 400508.780   400511.314   401907.119
+ 40  Q.BIRD+F+I+G4 198821.565   192 398027.131   398030.253   399579.045
+ 44  Q.MAMMAL+I+G4 199861.615   173 400069.229   400071.764   401467.569
+ 48  Q.MAMMAL+F+I+G4 198336.775   192 397057.550   397060.673   398609.465
+ 52  Q.INSECT+I+G4 198057.389   173 396460.778   396463.313   397859.118
+ 56  Q.INSECT+F+I+G4 197331.676   192 395047.352   395050.474   396599.266
+ 60  Q.PLANT+I+G4  197449.868   173 395245.736   395248.270   396644.076
+ 64  Q.PLANT+F+I+G4 196792.862   192 393969.724   393972.846   395521.639
+ 68  Q.YEAST+I+G4  198189.519   173 396725.037   396727.571   398123.377
+ 72  Q.YEAST+F+I+G4 197268.724   192 394921.449   394924.571   396473.364
+ 76  JTTDCMUT+I+G4 198396.523   173 397139.046   397141.580   398537.386
+ 80  JTTDCMUT+F+I+G4 197283.085   192 394950.170   394953.292   396502.084
+ 84  DCMUT+I+G4    200529.781   173 401405.562   401408.097   402803.902
+ 88  DCMUT+F+I+G4  198489.667   192 397363.334   397366.456   398915.248
+ 92  VT+I+G4       199535.413   173 399416.826   399419.360   400815.165
+ 96  VT+F+I+G4     198698.215   192 397780.429   397783.551   399332.344
+100  PMB+I+G4      201999.067   173 404344.135   404346.669   405742.474
+104  PMB+F+I+G4    200390.983   192 401165.966   401169.088   402717.880
+108  BLOSUM62+I+G4 201547.728   173 403441.456   403443.990   404839.796
+112  BLOSUM62+F+I+G4 200504.412   192 401392.824   401395.946   402944.739
+116  DAYHOFF+I+G4  200506.603   173 401359.207   401361.741   402757.546
+120  DAYHOFF+F+I+G4 198470.387   192 397324.773   397327.896   398876.688
+124  MTREV+I+G4    208861.321   173 418068.641   418071.176   419466.981
+128  MTREV+F+I+G4  198930.662   192 398245.324   398248.447   399797.239
+132  MTART+I+G4    211442.525   173 423231.050   423233.585   424629.390
+136  MTART+F+I+G4  201256.287   192 402896.575   402899.697   404448.489
+140  MTZOA+I+G4    207451.272   173 415248.544   415251.079   416646.884
+144  MTZOA+F+I+G4  198826.364   192 398036.728   398039.850   399588.642
+148  MTMET+I+G4    208633.839   173 417613.679   417616.213   419012.018
+152  MTMET+F+I+G4  198513.589   192 397411.178   397414.301   398963.093
+156  MTVER+I+G4    209234.613   173 418815.225   418817.759   420213.565
+160  MTVER+F+I+G4  199453.184   192 399290.369   399293.491   400842.283
+164  MTINV+I+G4    210655.172   173 421656.344   421658.879   423054.684
+168  MTINV+F+I+G4  198311.613   192 397007.226   397010.348   398559.140
+172  MTMAM+I+G4    211515.995   173 423377.989   423380.523   424776.329
+176  MTMAM+F+I+G4  201518.645   192 403421.291   403424.413   404973.205
+180  FLAVI+I+G4    202599.347   173 405544.694   405547.228   406943.033
+184  FLAVI+F+I+G4  200965.699   192 402315.399   402318.521   403867.313
+188  HIVB+I+G4     200530.452   173 401406.904   401409.438   402805.244
+192  HIVB+F+I+G4   198994.567   192 398373.134   398376.257   399925.049
+196  HIVW+I+G4     205494.975   173 411335.951   411338.485   412734.290
+200  HIVW+F+I+G4   202245.433   192 404874.866   404877.989   406426.781
+204  FLU+I+G4      200540.724   173 401427.447   401429.982   402825.787
+208  FLU+F+I+G4    198688.421   192 397760.842   397763.965   399312.757
+212  RTREV+I+G4    199979.869   173 400305.739   400308.273   401704.078
+216  RTREV+F+I+G4  198096.966   192 396577.932   396581.054   398129.847
+220  CPREV+I+G4    199513.449   173 399372.899   399375.433   400771.238
+224  CPREV+F+I+G4  198396.082   192 397176.164   397179.286   398728.078
+Akaike Information Criterion:           Q.PLANT+F+I+G4
+Corrected Akaike Information Criterion: Q.PLANT+F+I+G4
+Bayesian Information Criterion:         Q.PLANT+F+I+G4
+Best-fit model: Q.PLANT+F+I+G4 chosen according to BIC
+
+All model information printed to 06_phylogeny/iqtree_subset87/modelfinder.model.gz
+CPU time for ModelFinder: 5158.857 seconds (1h:25m:58s)
+Wall-clock time for ModelFinder: 1300.420 seconds (0h:21m:40s)
+
+NOTE: 441 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 0.719 / Estimate: 0.000, 0.288 / LogL: -197091.690
+Init pinv, alpha: 0.068, 0.719 / Estimate: 0.365, 0.625 / LogL: -196792.854
+Init pinv, alpha: 0.136, 0.719 / Estimate: 0.365, 0.625 / LogL: -196792.872
+Init pinv, alpha: 0.204, 0.719 / Estimate: 0.365, 0.625 / LogL: -196792.882
+Init pinv, alpha: 0.271, 0.719 / Estimate: 0.365, 0.625 / LogL: -196792.904
+Init pinv, alpha: 0.339, 0.719 / Estimate: 0.365, 0.625 / LogL: -196792.926
+Init pinv, alpha: 0.407, 0.719 / Estimate: 0.372, 0.641 / LogL: -196792.947
+Init pinv, alpha: 0.475, 0.719 / Estimate: 0.372, 0.641 / LogL: -196792.981
+Init pinv, alpha: 0.543, 0.719 / Estimate: 0.372, 0.640 / LogL: -196793.024
+Init pinv, alpha: 0.611, 0.719 / Estimate: 0.372, 0.640 / LogL: -196793.082
+Optimal pinv,alpha: 0.365, 0.625 / LogL: -196792.854
+
+Parameters optimization took 2019.246 sec
+Wrote distance file to... 
+BEST SCORE FOUND : -196792.854
+Total tree length: 1.641
+
+Total number of iterations: 0
+CPU time used for tree search: 0.003 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.001 sec (0h:0m:0s)
+Total CPU time used: 13200.909 sec (3h:40m:0s)
+Total wall-clock time used: 3319.758 sec (0h:55m:19s)
+
+Analysis results written to: 
+  IQ-TREE report:                06_phylogeny/iqtree_subset87/modelfinder.iqtree
+  Tree used for ModelFinder:     06_phylogeny/iqtree_subset87/modelfinder.treefile
+  Screen log file:               06_phylogeny/iqtree_subset87/modelfinder.log
+
+Date and Time: Mon Oct  5 20:08:14 2026

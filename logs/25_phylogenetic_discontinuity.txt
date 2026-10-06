@@ -1,0 +1,8 @@
+BACILLUS AMR PROJECT
+STEP 25 - PHYLOGENETIC DISCONTINUITY OF SPORADIC AMR DETERMINANTS
+
+Tree tips: 87
+Carrier-determinant observations: 40
+Species-determinant cases: 21
+Carriers with same-species negative comparator: 40
+Carriers with another same-species positive comparator: 27

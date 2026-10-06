@@ -1,0 +1,23 @@
+BACILLUS AMR PROJECT
+STEP 31 - WITHIN-SPECIES RESISTOME HETEROGENEITY
+
+Metric: pairwise Jaccard distance among genomes within each species
+Species included: n >= 10 genomes
+
+species	n_genomes	total_pairwise_comparisons	valid_jaccard_comparisons	undefined_zero_zero_comparisons	mean_within_species_jaccard	sd_within_species_jaccard	median_within_species_jaccard	Q1	Q3	min	max
+Bacillus cereus	116	6670	6670	0	0.488454	0.267622	0.5	0.333333	0.625	0.0	1.0
+Bacillus safensis	50	1225	1225	0	0.488163	0.497197	0.0	0.0	1.0	0.0	1.0
+Bacillus altitudinis	46	1035	1035	0	0.463768	0.498927	0.0	0.0	1.0	0.0	1.0
+Bacillus mycoides	20	190	190	0	0.376316	0.271615	0.333333	0.0	0.6	0.0	0.75
+Bacillus wiedmannii	41	820	820	0	0.365618	0.186628	0.375	0.2375	0.5	0.0	0.777778
+Bacillus halotolerans	38	703	703	0	0.363751	0.26082	0.5	0.0	0.5	0.0	0.8
+Bacillus thuringiensis	141	9870	9870	0	0.327797	0.192664	0.333333	0.2	0.5	0.0	0.8
+Bacillus velezensis	288	41328	41328	0	0.29699	0.3144	0.5	0.0	0.5	0.0	1.0
+Bacillus pseudomycoides	32	496	496	0	0.280242	0.449571	0.0	0.0	1.0	0.0	1.0
+Bacillus amyloliquefaciens	36	630	630	0	0.217989	0.269305	0.0	0.0	0.5	0.0	1.0
+Bacillus licheniformis	20	190	190	0	0.197368	0.245043	0.0	0.0	0.5	0.0	0.5
+Bacillus toyonensis	86	3655	3655	0	0.188424	0.199011	0.2	0.0	0.4	0.0	0.714286
+Bacillus subtilis	103	5253	5253	0	0.142959	0.143495	0.2	0.0	0.2	0.0	0.6
+Bacillus pumilus	34	561	561	0	0.087344	0.25607	0.0	0.0	0.0	0.0	1.0
+Bacillus paralicheniformis	19	171	171	0	0.035088	0.102598	0.0	0.0	0.0	0.0	0.333333
+Bacillus atrophaeus	12	66	66	0	0.0	0.0	0.0	0.0	0.0	0.0	0.0

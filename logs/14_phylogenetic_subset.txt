@@ -1,0 +1,32 @@
+BACILLUS AMR PROJECT
+STEP 14 - PHYLOGENETIC SUBSET SELECTION
+
+Eligible species: 16
+Sporadic AMR carriers: 39
+Context genomes per species: 3
+Context genomes total: 48
+Final phylogenetic subset: 87
+
+Selection rule:
+All sporadic AMR carriers retained.
+Three non-carrier context genomes selected per eligible species.
+Distinct AMR profiles prioritized; accession order used
+for deterministic selection and completion.
+
+        Species_normalized  total_selected  sporadic_carriers  context_genomes  AMR_profiles_represented
+       Bacillus velezensis              12                  9                3                         9
+    Bacillus thuringiensis              11                  8                3                         9
+           Bacillus cereus               8                  5                3                         6
+       Bacillus toyonensis               7                  4                3                         6
+       Bacillus wiedmannii               7                  4                3                         7
+         Bacillus safensis               6                  3                3                         4
+     Bacillus halotolerans               5                  2                3                         5
+         Bacillus subtilis               5                  2                3                         5
+Bacillus amyloliquefaciens               4                  1                3                         4
+   Bacillus pseudomycoides               4                  1                3                         3
+      Bacillus altitudinis               3                  0                3                         2
+       Bacillus atrophaeus               3                  0                3                         1
+    Bacillus licheniformis               3                  0                3                         2
+         Bacillus mycoides               3                  0                3                         3
+Bacillus paralicheniformis               3                  0                3                         2
+          Bacillus pumilus               3                  0                3                         3

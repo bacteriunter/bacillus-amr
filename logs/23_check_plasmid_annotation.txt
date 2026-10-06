@@ -1,0 +1,6 @@
+BACILLUS AMR PROJECT
+STEP 23 - NCBI PLASMID ANNOTATION OF SPORADIC AMR LOCI
+
+Physical AMR loci: 41
+Explicitly annotated as plasmid by NCBI: 0
+Without explicit plasmid annotation: 41

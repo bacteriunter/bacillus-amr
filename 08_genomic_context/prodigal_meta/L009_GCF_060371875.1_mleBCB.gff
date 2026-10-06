@@ -1,0 +1,10 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=7554;seqhdr="L009_GCF_060371875.1_mleBCB locus=L009_GCF_060371875.1_mleBCB_NZ_JCCFJE010000010.1_3246-4088 contig=NZ_JCCFJE010000010.1 window=1-7554 AMR=3246-4088 strand=- context=truncated_both"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="39|Rickettsia_conorii_Malish_7|B|32.4|11|1";gc_cont=32.40;transl_table=11;uses_sd=1
+L009_GCF_060371875.1_mleBCB	Prodigal_v2.6.3	CDS	192	578	52.5	-	0	ID=1_1;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.315;conf=100.00;score=51.82;cscore=42.76;sscore=9.06;rscore=5.67;uscore=1.15;tscore=2.90;
+L009_GCF_060371875.1_mleBCB	Prodigal_v2.6.3	CDS	1659	2306	89.0	+	0	ID=1_2;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.292;conf=100.00;score=93.97;cscore=84.12;sscore=9.85;rscore=5.66;uscore=-3.64;tscore=2.90;
+L009_GCF_060371875.1_mleBCB	Prodigal_v2.6.3	CDS	3243	4097	102.4	-	0	ID=1_3;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.379;conf=100.00;score=101.78;cscore=92.43;sscore=9.35;rscore=7.43;uscore=-0.32;tscore=2.90;
+L009_GCF_060371875.1_mleBCB	Prodigal_v2.6.3	CDS	4796	5338	76.7	+	0	ID=1_4;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.304;conf=100.00;score=76.72;cscore=75.82;sscore=0.89;rscore=-0.99;uscore=-1.02;tscore=2.90;
+L009_GCF_060371875.1_mleBCB	Prodigal_v2.6.3	CDS	6286	6540	23.7	-	0	ID=1_5;partial=00;start_type=ATG;rbs_motif=AGGAG;rbs_spacer=5-10bp;gc_cont=0.388;conf=99.50;score=23.04;cscore=11.73;sscore=11.31;rscore=7.43;uscore=1.63;tscore=2.90;
+L009_GCF_060371875.1_mleBCB	Prodigal_v2.6.3	CDS	6884	7099	11.3	+	0	ID=1_6;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.444;conf=93.12;score=11.33;cscore=7.69;sscore=3.64;rscore=-1.16;uscore=2.33;tscore=2.47;
+L009_GCF_060371875.1_mleBCB	Prodigal_v2.6.3	CDS	7167	7346	13.8	-	0	ID=1_7;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.333;conf=95.98;score=13.80;cscore=7.76;sscore=6.04;rscore=4.13;uscore=-0.14;tscore=2.05;

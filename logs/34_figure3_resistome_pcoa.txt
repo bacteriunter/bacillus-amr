@@ -1,0 +1,33 @@
+BACILLUS AMR PROJECT
+FIGURE 3 - PCoA OF RESISTOME COMPOSITION
+
+Genomes plotted: 1082
+Species plotted: 16
+Distance used in original ordination: Jaccard
+PCoA axis 1: 26.0206%
+PCoA axis 2: 19.1088%
+PCoA axes 1+2: 45.1294%
+
+Species centroids displayed as enlarged markers with black outlines.
+Centroids are shown for visualization only.
+
+PERMANOVA: pseudo-F = 200.311429; R2 = 0.738127; p = 0.001; 999 permutations
+PERMDISP: F = 28.473100; p = 0.001; 999 permutations
+
+SPECIES
+Bacillus velezensis	288
+Bacillus thuringiensis	141
+Bacillus cereus	116
+Bacillus subtilis	103
+Bacillus toyonensis	86
+Bacillus safensis	50
+Bacillus altitudinis	46
+Bacillus wiedmannii	41
+Bacillus halotolerans	38
+Bacillus amyloliquefaciens	36
+Bacillus pumilus	34
+Bacillus pseudomycoides	32
+Bacillus licheniformis	20
+Bacillus mycoides	20
+Bacillus paralicheniformis	19
+Bacillus atrophaeus	12

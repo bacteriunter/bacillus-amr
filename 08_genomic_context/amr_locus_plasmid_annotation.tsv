@@ -1,0 +1,42 @@
+locus_number	accession	species	determinant	contig	start	stop	strand	ncbi_header	ncbi_explicit_plasmid
+L001	GCF_001617995.1	Bacillus amyloliquefaciens	emrC	NZ_LMUC01000001.1	38044	38403	+	NZ_LMUC01000001.1 Bacillus amyloliquefaciens strain H57 Ga0082361_116, whole genome shotgun sequence	False
+L002	GCF_002566845.1	Bacillus cereus	abaF	NZ_NUZN01000021.1	8036	9307	+	NZ_NUZN01000021.1 Bacillus cereus strain AFS074395 AFS074395_100_A3_Contig21_140514, whole genome shotgun sequence	False
+L003	GCF_002567785.1	Bacillus cereus	abaF	NZ_NVBD01000111.1	9830	11101	+	NZ_NVBD01000111.1 Bacillus cereus strain AFS068308 AFS068308_100_A4_Contig111_140514, whole genome shotgun sequence	False
+L004	GCF_002583515.1	Bacillus cereus	abaF	NZ_NUPQ01000068.1	204	1475	-	NZ_NUPQ01000068.1 Bacillus cereus strain AFS030055 AFS030055_100_E1_Contig68_140514, whole genome shotgun sequence	False
+L005	GCF_024495135.1	Bacillus cereus	abaF	NZ_JANHDW010000015.1	23950	25221	-	NZ_JANHDW010000015.1 Bacillus cereus strain B003-4 NODE_15_length_109961_cov_31.433548, whole genome shotgun sequence	False
+L006	GCF_036621235.1	Bacillus cereus	fosBx1	NZ_JAZIBK010000014.1	123654	124067	-	NZ_JAZIBK010000014.1 Bacillus cereus strain B27 NODE_14, whole genome shotgun sequence	False
+L007	GCF_002993765.1	Bacillus halotolerans	blaTEM	NZ_PVXC01000040.1	2	517	+	NZ_PVXC01000040.1 Bacillus halotolerans strain 36 NODE_40_length_568_cov_1.28345, whole genome shotgun sequence	False
+L008	GCF_002993735.1	Bacillus halotolerans	emrC	NZ_PVXD01000001.1	479246	479620	+	NZ_PVXD01000001.1 Bacillus halotolerans strain B19 NODE_1_length_576791_cov_54.3803, whole genome shotgun sequence	False
+L009	GCF_060371875.1	Bacillus pseudomycoides	mleBCB	NZ_JCCFJE010000010.1	3246	4088	-	NZ_JCCFJE010000010.1 Bacillus pseudomycoides voucher Soil R25 isolate LL56 contig_27, whole genome shotgun sequence	False
+L010	GCF_036966405.1	Bacillus safensis	aph(3')-IIa	NZ_JBALRJ010000251.1	3	767	+	NZ_JBALRJ010000251.1 Bacillus safensis strain JJ326 JJ-326_contig_348, whole genome shotgun sequence	False
+L011	GCF_040492755.1	Bacillus safensis	emrC	NZ_JBEUTX010000033.1	115	447	-	NZ_JBEUTX010000033.1 Bacillus safensis strain JJ917 JJ-917_ODE_33_length_41408_cov_111.636080, whole genome shotgun sequence	False
+L012	GCF_040492895.1	Bacillus safensis	emrC	NZ_JBEUUE010000019.1	198	557	-	NZ_JBEUUE010000019.1 Bacillus safensis strain JJ1770 JJ-1770_contig_19, whole genome shotgun sequence	False
+L013	GCF_040151275.1	Bacillus subtilis	blaTEM	NZ_JAXOWG010000016.1	262	1011	-	NZ_JAXOWG010000016.1 Bacillus subtilis strain M17KBT1A NODE_16_length_1011_cov_2.074946, whole genome shotgun sequence	False
+L014	GCF_053895045.1	Bacillus subtilis	msr(D)	NZ_JBSVMM010000022.1	165	1211	+	NZ_JBSVMM010000022.1 Bacillus subtilis strain A7 k141_4880, whole genome shotgun sequence	False
+L015	GCF_036621355.1	Bacillus thuringiensis	fosBx1	NZ_JAZIFE010000014.1	123654	124067	-	NZ_JAZIFE010000014.1 Bacillus thuringiensis strain B20 NODE_14, whole genome shotgun sequence	False
+L016	GCF_002558235.1	Bacillus thuringiensis	mphM	NZ_NTVQ01000045.1	19909	20805	-	NZ_NTVQ01000045.1 Bacillus thuringiensis strain AFS012085 AFS012085_120_E8_Contig40_140618, whole genome shotgun sequence	False
+L017	GCF_002575305.1	Bacillus thuringiensis	mphM	NZ_NUHS01000006.1	15308	16204	-	NZ_NUHS01000006.1 Bacillus thuringiensis strain AFS052794 AFS052794_102_F6_Contig6_140514, whole genome shotgun sequence	False
+L018	GCF_002575365.1	Bacillus thuringiensis	mphM	NZ_NUHU01000015.1	37261	38157	+	NZ_NUHU01000015.1 Bacillus thuringiensis strain AFS052676 AFS052676_99_E7_Contig15_140514, whole genome shotgun sequence	False
+L019	GCF_002575895.1	Bacillus thuringiensis	mphM	NZ_NUJC01000016.1	33322	34218	-	NZ_NUJC01000016.1 Bacillus thuringiensis strain AFS048014 AFS048014_96_F10_Contig13_140514, whole genome shotgun sequence	False
+L020	GCF_036621275.1	Bacillus thuringiensis	mphM	NZ_JAZIFA010000002.1	331794	332687	-	NZ_JAZIFA010000002.1 Bacillus thuringiensis strain B6 NODE_2, whole genome shotgun sequence	False
+L021	GCF_036621295.1	Bacillus thuringiensis	mphM	NZ_JAZIFD010000007.1	100208	101101	+	NZ_JAZIFD010000007.1 Bacillus thuringiensis strain B4 NODE_7, whole genome shotgun sequence	False
+L022	GCF_036621315.1	Bacillus thuringiensis	mphM	NZ_JAZIFB010000004.1	331840	332733	-	NZ_JAZIFB010000004.1 Bacillus thuringiensis strain B9 NODE_4, whole genome shotgun sequence	False
+L023	GCF_002552785.1	Bacillus toyonensis	blaIII	NZ_NVPE01000139.1	1	531	+	NZ_NVPE01000139.1 Bacillus toyonensis strain AFS089449 AFS089449_73_D12_Contig139_140411, whole genome shotgun sequence	False
+L024	GCF_002568725.1	Bacillus toyonensis	fosB	NZ_NVFM01000047.1	7064	7477	-	NZ_NVFM01000047.1 Bacillus toyonensis strain AFS083448 AFS083448_73_A8_Contig47_140411, whole genome shotgun sequence	False
+L025	GCF_002580975.1	Bacillus toyonensis	fosB	NZ_NUSO01000195.1	14544	14957	-	NZ_NUSO01000195.1 Bacillus toyonensis strain AFS044634 AFS044634_105_A7_Contig195_140523, whole genome shotgun sequence	False
+L026	GCF_036962425.1	Bacillus toyonensis	fosB	NZ_JBALNA010000118.1	7325	7735	-	NZ_JBALNA010000118.1 Bacillus toyonensis strain JJ480 JJ-480_contig_122, whole genome shotgun sequence	False
+L027	GCF_004294525.1	Bacillus velezensis	aadK	NZ_SHOC01000057.1	2	565	-	NZ_SHOC01000057.1 Bacillus velezensis strain A3 NODE_59_length_832_cov_1.032624, whole genome shotgun sequence	False
+L028	GCF_013348705.1	Bacillus velezensis	ant(9)-Ia	NZ_CP054714.1	1026117	1026896	+	NZ_CP054714.1 Bacillus velezensis strain KKLW chromosome, complete genome	False
+L029	GCF_013348705.1	Bacillus velezensis	aph(3')-IIIa	NZ_CP054714.1	1454776	1455567	-	NZ_CP054714.1 Bacillus velezensis strain KKLW chromosome, complete genome	False
+L030	GCF_022370935.1	Bacillus velezensis	aph(3')-IIIa	NZ_CP092412.1	735094	735885	+	NZ_CP092412.1 Bacillus velezensis strain HNU24 chromosome, complete genome	False
+L031	GCF_022370935.1	Bacillus velezensis	aph(3')-IIIa	NZ_CP092412.1	3656878	3657669	+	NZ_CP092412.1 Bacillus velezensis strain HNU24 chromosome, complete genome	False
+L032	GCF_003854915.1	Bacillus velezensis	emrC	NZ_CP033967.1	663958	664317	+	NZ_CP033967.1 Bacillus velezensis strain 1B-23 chromosome, complete genome	False
+L033	GCF_045924925.1	Bacillus velezensis	emrC	NZ_CP166492.1	2184764	2185123	+	NZ_CP166492.1 Bacillus velezensis strain BC248L1-1 chromosome, complete genome	False
+L034	GCF_050445565.1	Bacillus velezensis	emrC	NZ_JBBULW010000002.1	35059	35418	+	NZ_JBBULW010000002.1 Bacillus velezensis strain FaR1 NODE_2_length_1088741_cov_51.528186, whole genome shotgun sequence	False
+L035	GCF_059147205.1	Bacillus velezensis	emrC	NZ_CM181145.1	1650434	1650793	-	NZ_CM181145.1 Bacillus velezensis isolate C3E1 chromosome, whole genome shotgun sequence	False
+L036	GCF_977015535.1	Bacillus velezensis	emrC	NZ_CDRNOD010000001.1	2202911	2203270	+	NZ_CDRNOD010000001.1 Bacillus velezensis isolate BSCM101 BSCM_101-1, whole genome shotgun sequence	False
+L037	GCF_031324265.1	Bacillus velezensis	erm(B)	NZ_JAVIVO010000001.1	2341342	2342076	+	NZ_JAVIVO010000001.1 Bacillus velezensis strain DY26 1, whole genome shotgun sequence	False
+L038	GCF_002555155.1	Bacillus wiedmannii	mleBCB	NZ_NUDB01000017.1	16687	17538	+	NZ_NUDB01000017.1 Bacillus wiedmannii strain AFS013151 AFS013151_120_G8_Contig17_140618, whole genome shotgun sequence	False
+L039	GCF_002555305.1	Bacillus wiedmannii	mleBCB	NZ_NUDK01000002.1	180378	181229	-	NZ_NUDK01000002.1 Bacillus wiedmannii strain AFS011149 AFS011149_96_C10_Contig2_140514, whole genome shotgun sequence	False
+L040	GCF_002555385.1	Bacillus wiedmannii	mphM	NZ_NUDL01000019.1	6311	7207	-	NZ_NUDL01000019.1 Bacillus wiedmannii strain AFS010764 AFS010764_73_A11_Contig19_140411, whole genome shotgun sequence	False
+L041	GCF_036963245.1	Bacillus wiedmannii	mphM	NZ_JBALMF010000073.1	406	1302	-	NZ_JBALMF010000073.1 Bacillus wiedmannii strain JJ789 JJ-789_contig_73, whole genome shotgun sequence	False

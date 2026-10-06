@@ -1,0 +1,15 @@
+BACILLUS AMR PROJECT
+FIGURE 4 - TARGETED PHYLOGENETIC CONTEXT OF SPORADIC AMR DETERMINANTS
+
+Tree tips: 87
+Sporadic carrier genomes: 39
+Intraspecific context genomes: 48
+Carrier genomes with local mobility evidence: 10
+
+Tree source: final ML tree from the targeted 87-genome phylogenetic subset.
+Alignment: 119 Firmicutes single-copy marker genes, 23,930 amino-acid positions.
+Model: Q.PLANT+F+I+G4.
+Branch support analysis: 1,000 ultrafast bootstrap replicates and 1,000 SH-aLRT replicates.
+
+Filled circles indicate sporadic AMR carriers; open circles indicate intraspecific context genomes.
+Stars indicate carrier genomes with at least one AMR locus showing local mobility evidence in the genomic-context analysis.

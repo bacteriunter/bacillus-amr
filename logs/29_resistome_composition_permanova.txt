@@ -1,0 +1,23 @@
+BACILLUS AMR PROJECT
+STEP 29 - RESISTOME COMPOSITION BY SPECIES
+
+Genomes analyzed: 1082
+Species analyzed: 16
+AMR determinants: 36
+Distance: Jaccard
+PERMANOVA permutations: 999
+
+PERMANOVA
+method name: PERMANOVA
+test statistic name: pseudo-F
+sample size: 1082
+number of groups: 16
+test statistic: 200.31142877826983
+p-value: 0.001
+number of permutations: 999
+Pseudo-R2: 0.738127
+
+PCoA
+Axis 1 explained: 26.0206%
+Axis 2 explained: 19.1088%
+Axis 3 explained: 12.1591%

@@ -1,0 +1,7 @@
+BACILLUS AMR PROJECT
+STEP 12 - AMR PRESENCE/ABSENCE AND SPECIES PREVALENCE
+
+Genomes: 1312
+Unique AMR determinants: 36
+Genomes with >=1 AMR determinant: 1181
+Genomes without AMR determinants: 131

@@ -1,0 +1,3 @@
+BioProject	Records	Metadata_value	Decision	Reason
+PRJNA1078443	79	emissingophyte	INCLUDE	Project-associated publication identifies the strain collection as PGPR; plant hosts include corn and soybean. Inclusion is based on documented plant association of the collection, not on interpreting the malformed isolation-source term itself.
+PRJNA400804	386	core	UNRESOLVED	Host is predominantly Corn or Soybean, but isolation_source=core cannot currently be unambiguously interpreted as direct plant tissue. The same BioProject contains explicitly plant-associated root isolates as well as non-direct sources such as grainbin dust; therefore host alone is insufficient for inclusion.

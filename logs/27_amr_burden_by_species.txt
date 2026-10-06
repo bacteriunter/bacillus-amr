@@ -1,0 +1,93 @@
+BACILLUS AMR PROJECT
+STEP 27 - AMR DETERMINANT BURDEN BY SPECIES
+
+Eligible species (n >= 10): 16
+Genomes analyzed: 1082
+
+KRUSKAL-WALLIS
+H = 876.402007
+p = 3.953134e-177
+
+DUNN POST HOC WITH BENJAMINI-HOCHBERG CORRECTION
+Significant pairwise comparisons (q < 0.05): 81
+Bacillus altitudinis	Bacillus amyloliquefaciens	5.730319e-04
+Bacillus altitudinis	Bacillus atrophaeus	4.607267e-03
+Bacillus altitudinis	Bacillus cereus	5.475710e-36
+Bacillus altitudinis	Bacillus halotolerans	3.497123e-03
+Bacillus altitudinis	Bacillus mycoides	5.436821e-07
+Bacillus altitudinis	Bacillus paralicheniformis	4.778019e-04
+Bacillus altitudinis	Bacillus pumilus	1.247096e-04
+Bacillus altitudinis	Bacillus subtilis	1.506271e-35
+Bacillus altitudinis	Bacillus thuringiensis	6.123367e-45
+Bacillus altitudinis	Bacillus toyonensis	8.311119e-31
+Bacillus altitudinis	Bacillus velezensis	1.512962e-05
+Bacillus altitudinis	Bacillus wiedmannii	1.641141e-27
+Bacillus amyloliquefaciens	Bacillus cereus	3.886370e-13
+Bacillus amyloliquefaciens	Bacillus mycoides	4.980711e-02
+Bacillus amyloliquefaciens	Bacillus pseudomycoides	5.959804e-05
+Bacillus amyloliquefaciens	Bacillus safensis	5.584637e-05
+Bacillus amyloliquefaciens	Bacillus subtilis	3.784705e-13
+Bacillus amyloliquefaciens	Bacillus thuringiensis	1.204330e-17
+Bacillus amyloliquefaciens	Bacillus toyonensis	4.581313e-11
+Bacillus amyloliquefaciens	Bacillus wiedmannii	2.019443e-11
+Bacillus atrophaeus	Bacillus cereus	6.934870e-05
+Bacillus atrophaeus	Bacillus pseudomycoides	8.530797e-04
+Bacillus atrophaeus	Bacillus safensis	1.244398e-03
+Bacillus atrophaeus	Bacillus subtilis	5.868642e-05
+Bacillus atrophaeus	Bacillus thuringiensis	2.485726e-06
+Bacillus atrophaeus	Bacillus toyonensis	2.510385e-04
+Bacillus atrophaeus	Bacillus wiedmannii	3.851216e-05
+Bacillus cereus	Bacillus halotolerans	6.569974e-16
+Bacillus cereus	Bacillus licheniformis	5.937038e-14
+Bacillus cereus	Bacillus mycoides	1.073557e-03
+Bacillus cereus	Bacillus paralicheniformis	1.873126e-06
+Bacillus cereus	Bacillus pseudomycoides	3.739388e-33
+Bacillus cereus	Bacillus pumilus	4.913785e-11
+Bacillus cereus	Bacillus safensis	6.271524e-42
+Bacillus cereus	Bacillus velezensis	3.024874e-41
+Bacillus halotolerans	Bacillus mycoides	1.389949e-02
+Bacillus halotolerans	Bacillus pseudomycoides	4.038982e-04
+Bacillus halotolerans	Bacillus safensis	4.328512e-04
+Bacillus halotolerans	Bacillus subtilis	6.696099e-16
+Bacillus halotolerans	Bacillus thuringiensis	3.314759e-21
+Bacillus halotolerans	Bacillus toyonensis	1.878733e-13
+Bacillus halotolerans	Bacillus wiedmannii	1.843065e-13
+Bacillus licheniformis	Bacillus mycoides	1.676971e-03
+Bacillus licheniformis	Bacillus subtilis	5.191198e-14
+Bacillus licheniformis	Bacillus thuringiensis	1.765343e-17
+Bacillus licheniformis	Bacillus toyonensis	2.195923e-12
+Bacillus licheniformis	Bacillus wiedmannii	5.138757e-13
+Bacillus mycoides	Bacillus pseudomycoides	4.821796e-08
+Bacillus mycoides	Bacillus safensis	3.217400e-08
+Bacillus mycoides	Bacillus subtilis	8.688415e-04
+Bacillus mycoides	Bacillus thuringiensis	2.897561e-05
+Bacillus mycoides	Bacillus toyonensis	4.044141e-03
+Bacillus mycoides	Bacillus velezensis	5.239711e-03
+Bacillus mycoides	Bacillus wiedmannii	5.730319e-04
+Bacillus paralicheniformis	Bacillus pseudomycoides	5.959804e-05
+Bacillus paralicheniformis	Bacillus safensis	6.978980e-05
+Bacillus paralicheniformis	Bacillus subtilis	1.548418e-06
+Bacillus paralicheniformis	Bacillus thuringiensis	1.166924e-08
+Bacillus paralicheniformis	Bacillus toyonensis	1.390300e-05
+Bacillus paralicheniformis	Bacillus wiedmannii	1.751745e-06
+Bacillus pseudomycoides	Bacillus pumilus	1.299928e-05
+Bacillus pseudomycoides	Bacillus subtilis	6.488864e-33
+Bacillus pseudomycoides	Bacillus thuringiensis	2.017984e-40
+Bacillus pseudomycoides	Bacillus toyonensis	3.895473e-29
+Bacillus pseudomycoides	Bacillus velezensis	1.548418e-06
+Bacillus pseudomycoides	Bacillus wiedmannii	3.583732e-27
+Bacillus pumilus	Bacillus safensis	1.002792e-05
+Bacillus pumilus	Bacillus subtilis	4.533498e-11
+Bacillus pumilus	Bacillus thuringiensis	5.513688e-15
+Bacillus pumilus	Bacillus toyonensis	3.017325e-09
+Bacillus pumilus	Bacillus wiedmannii	7.563789e-10
+Bacillus safensis	Bacillus subtilis	2.807409e-41
+Bacillus safensis	Bacillus thuringiensis	2.022837e-52
+Bacillus safensis	Bacillus toyonensis	6.605971e-36
+Bacillus safensis	Bacillus velezensis	1.440654e-07
+Bacillus safensis	Bacillus wiedmannii	2.648039e-31
+Bacillus subtilis	Bacillus velezensis	3.919232e-39
+Bacillus thuringiensis	Bacillus toyonensis	4.927634e-02
+Bacillus thuringiensis	Bacillus velezensis	1.252486e-60
+Bacillus toyonensis	Bacillus velezensis	2.953549e-30
+Bacillus velezensis	Bacillus wiedmannii	1.954155e-22

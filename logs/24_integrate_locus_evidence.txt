@@ -1,0 +1,9 @@
+BACILLUS AMR PROJECT
+STEP 24 - INTEGRATED SPORADIC AMR LOCUS EVIDENCE
+
+Physical AMR loci: 41
+Complete ±10 kb contexts: 24
+Truncated contexts: 17
+Loci with local mobility evidence: 10
+Loci with both IS and recombinase/resolvase evidence: 1
+Loci explicitly annotated as plasmid by NCBI: 0

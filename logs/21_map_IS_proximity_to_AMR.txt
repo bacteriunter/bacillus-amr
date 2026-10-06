@@ -1,0 +1,17 @@
+BACILLUS AMR PROJECT
+STEP 21 - IS PROXIMITY TO SPORADIC AMR LOCI
+
+Physical AMR loci: 41
+Accepted IS-associated proteins: 13
+AMR loci with >=1 accepted IS protein: 10
+AMR loci without accepted IS protein: 31
+
+Nearest IS distance to AMR locus (bp):
+count      10.000000
+mean     4260.500000
+std      3383.957094
+min       202.000000
+25%      1580.000000
+50%      3807.000000
+75%      6857.000000
+max      8910.000000

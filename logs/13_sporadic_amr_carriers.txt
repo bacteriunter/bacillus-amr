@@ -1,0 +1,12 @@
+BACILLUS AMR PROJECT
+STEP 13 - SPORADIC AMR CARRIERS
+
+Minimum species size: 10
+Sporadic prevalence threshold: >0 to <= 5.0%
+
+Eligible species: 16
+AMR determinants evaluated: 36
+Sporadic species-determinant cases: 21
+Unique sporadic determinants: 14
+Unique carrier genomes: 39
+Carriers with >1 sporadic determinant: 1

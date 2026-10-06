@@ -1,0 +1,59 @@
+BACILLUS AMR PROJECT
+STEP 28 - SPECIES RESISTOME PREVALENCE MATRIX
+
+Eligible species: 16
+Determinants represented: 33
+Matrix dimensions: 16 x 33
+
+DETERMINANTS DETECTED PER SPECIES
+Bacillus cereus	12
+Bacillus thuringiensis	12
+Bacillus toyonensis	10
+Bacillus wiedmannii	10
+Bacillus subtilis	7
+Bacillus velezensis	7
+Bacillus mycoides	5
+Bacillus halotolerans	5
+Bacillus amyloliquefaciens	3
+Bacillus safensis	3
+Bacillus paralicheniformis	3
+Bacillus atrophaeus	2
+Bacillus pseudomycoides	2
+Bacillus licheniformis	2
+Bacillus pumilus	2
+Bacillus altitudinis	1
+
+NUMBER OF SPECIES CONTAINING EACH DETERMINANT
+satA	10
+mleBCB	5
+bla2	5
+fosB	5
+bla	5
+vanS-Pt	4
+vanR-A	4
+emrC	4
+blaIII	4
+cat86	3
+clbA	3
+mphM	3
+mleBCA	3
+aadK	2
+blaTEM	2
+abaF	2
+blaP	2
+tet(45)	2
+mphK	2
+fosBx1	2
+erm(D)	2
+aph(3')-IIa	1
+aph(3')-IIIa	1
+blaBPU	1
+ant(9)-Ia	1
+catA1	1
+blaBSU	1
+blaBAT	1
+erm(B)	1
+mphL	1
+msr(D)	1
+tet(L)	1
+vmlR	1

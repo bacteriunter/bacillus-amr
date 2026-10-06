@@ -1,0 +1,222 @@
+IQ-TREE version 3.1.2 for Linux x86 64-bit built May 17 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    GWCC51416 (AVX512, FMA3, 3 GB RAM)
+Command: /home/bacte/miniconda3/envs/bacillus_ecogenomics/bin/iqtree -s 06_phylogeny/Aligned_SCGs_subset87.faa -m Q.PLANT+F+I+G4 -B 1000 -alrt 1000 -T 4 --prefix 06_phylogeny/iqtree_subset87/final_tree
+Seed:    936616 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Oct  5 20:09:42 2026
+Kernel:  AVX+FMA - 4 threads (8 CPU cores detected)
+
+Reading alignment file 06_phylogeny/Aligned_SCGs_subset87.faa ... Fasta format detected
+Reading fasta file: done in 0.0552299 secs using 27.14% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.071151 secs using 322.2% CPU
+WARNING: 594 sites contain only gaps or ambiguous characters.
+Alignment has 87 sequences with 23930 columns, 8194 distinct patterns
+9078 parsimony-informative, 239 singleton sites, 14613 constant sites
+                 Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00145698 secs using 298.6% CPU
+   1  GCF_000262385.1    5.65%    passed     87.97%
+   2  GCF_000385965.2    4.97%    passed     91.63%
+   3  GCF_000444215.1    5.50%    passed     91.38%
+   4  GCF_000465655.1    4.77%    passed     91.33%
+   5  GCF_000706705.1    2.65%    passed     88.65%
+   6  GCF_000786145.2    4.77%    passed     89.90%
+   7  GCF_000817575.1    5.00%    passed     83.45%
+   8  GCF_000931375.1    3.42%    passed     93.19%
+   9  GCF_001017635.1    5.15%    passed     91.97%
+  10  GCF_001029865.1    2.61%    passed     78.88%
+  11  GCF_001275045.2    5.01%    passed     82.50%
+  12  GCF_001578205.1    4.33%    passed     61.22%
+  13  GCF_001579695.1    4.94%    passed     88.30%
+  14  GCF_001617995.1    4.77%    passed     82.40%
+  15  GCF_001625135.1    2.65%    passed     85.90%
+  16  GCF_001678165.1    9.88%    passed     89.88%
+  17  GCF_001756265.1    5.62%    passed     97.96%
+  18  GCF_001757695.1    3.74%    passed     92.64%
+  19  GCF_001757745.1    2.77%    passed     92.32%
+  20  GCF_001757785.1    4.55%    passed     94.79%
+  21  GCF_001757835.1    4.03%    passed     98.75%
+  22  GCF_001876545.1    7.70%    passed     83.80%
+  23  GCF_001876555.1    6.27%    passed     65.78%
+  24  GCF_002068155.1    3.38%    passed     75.80%
+  25  GCF_002214765.1    3.74%    passed     93.90%
+  26  GCF_002243495.1    5.00%    passed     95.34%
+  27  GCF_002550225.1    2.76%    passed     97.11%
+  28  GCF_002550355.1    4.33%    passed     80.29%
+  29  GCF_002550525.1    5.01%    passed     83.89%
+  30  GCF_002550685.1    5.54%    passed     57.83%
+  31  GCF_002552785.1    4.03%    passed     84.91%
+  32  GCF_002553115.1    4.34%    passed     66.02%
+  33  GCF_002555155.1    3.90%    passed     95.09%
+  34  GCF_002555265.1    2.76%    passed     97.28%
+  35  GCF_002555305.1    3.90%    passed     94.00%
+  36  GCF_002555385.1    3.92%    passed     93.53%
+  37  GCF_002555545.1    3.69%    passed     68.79%
+  38  GCF_002558235.1    5.62%    passed     96.59%
+  39  GCF_002566845.1    2.77%    passed     71.44%
+  40  GCF_002567785.1    2.77%    passed     79.14%
+  41  GCF_002568725.1    5.01%    passed     83.09%
+  42  GCF_002575305.1    4.89%    passed     96.37%
+  43  GCF_002575365.1    4.89%    passed     96.29%
+  44  GCF_002575895.1    2.76%    passed     97.68%
+  45  GCF_002580975.1    4.03%    passed     82.44%
+  46  GCF_002583515.1    2.77%    passed     71.68%
+  47  GCF_002741745.1    3.27%    passed     85.80%
+  48  GCF_002849425.1    3.35%    passed     71.99%
+  49  GCF_002914545.1    2.62%    passed     85.26%
+  50  GCF_002993735.1    4.25%    passed     84.93%
+  51  GCF_002993745.1    2.62%    passed     88.07%
+  52  GCF_002993765.1    5.61%    passed     94.61%
+  53  GCF_002998055.1    5.00%    passed     95.83%
+  54  GCF_002998315.1    4.33%    passed     74.85%
+  55  GCF_003064485.1    2.61%    passed     80.18%
+  56  GCF_003171815.2    3.68%    passed     77.19%
+  57  GCF_003854915.1    4.77%    passed     83.81%
+  58  GCF_004294525.1   11.43%    passed     74.60%
+  59  GCF_004294535.1    2.65%    passed     87.72%
+  60  GCF_006351625.1    4.77%    passed     86.24%
+  61  GCF_008244765.1    4.76%    passed     86.56%
+  62  GCF_013348705.1    4.77%    passed     86.73%
+  63  GCF_016767285.1    2.62%    passed     89.97%
+  64  GCF_017824715.1    4.77%    passed     84.33%
+  65  GCF_020908045.1    4.33%    passed     89.33%
+  66  GCF_022370935.1    4.77%    passed     86.73%
+  67  GCF_024495135.1    6.27%    passed     96.39%
+  68  GCF_029958265.1    3.65%    passed     66.71%
+  69  GCF_031324265.1    4.77%    passed     85.88%
+  70  GCF_036621235.1    2.77%    passed     93.34%
+  71  GCF_036621275.1    2.76%    passed     96.24%
+  72  GCF_036621295.1    3.74%    passed     92.14%
+  73  GCF_036621315.1    2.76%    passed     96.24%
+  74  GCF_036621355.1    3.40%    passed     94.71%
+  75  GCF_036962425.1    4.03%    passed     84.78%
+  76  GCF_036963245.1    5.63%    passed     97.77%
+  77  GCF_036966405.1    2.61%    passed     75.59%
+  78  GCF_040151275.1    2.65%    passed     84.17%
+  79  GCF_040492755.1    4.32%    passed     81.47%
+  80  GCF_040492895.1    4.33%    passed     76.58%
+  81  GCF_045924925.1    4.77%    passed     84.67%
+  82  GCF_046269165.1    2.60%    passed     74.20%
+  83  GCF_050445565.1    4.77%    passed     85.03%
+  84  GCF_053895045.1    3.41%    passed     89.48%
+  85  GCF_059147205.1    4.77%    passed     84.78%
+  86  GCF_060371875.1    3.69%    passed     75.22%
+  87  GCF_977015535.1    4.77%    passed     85.28%
+****  TOTAL              4.28%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: GCF_022370935.1 is identical to GCF_013348705.1 but kept for subsequent analysis
+NOTE: GCF_036621315.1 is identical to GCF_036621275.1 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00415778 secs using 326.7% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.304 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 936616)...
+
+NOTE: 473 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 0.288 / LogL: -197106.345
+Init pinv, alpha: 0.068, 1.000 / Estimate: 0.356, 0.609 / LogL: -196812.939
+Init pinv, alpha: 0.136, 1.000 / Estimate: 0.356, 0.609 / LogL: -196812.962
+Init pinv, alpha: 0.204, 1.000 / Estimate: 0.356, 0.609 / LogL: -196812.975
+Init pinv, alpha: 0.271, 1.000 / Estimate: 0.356, 0.609 / LogL: -196813.007
+Init pinv, alpha: 0.339, 1.000 / Estimate: 0.356, 0.609 / LogL: -196813.026
+Init pinv, alpha: 0.407, 1.000 / Estimate: 0.378, 0.656 / LogL: -196812.952
+Init pinv, alpha: 0.475, 1.000 / Estimate: 0.377, 0.655 / LogL: -196812.929
+Init pinv, alpha: 0.543, 1.000 / Estimate: 0.378, 0.655 / LogL: -196813.000
+Init pinv, alpha: 0.611, 1.000 / Estimate: 0.377, 0.655 / LogL: -196813.051
+Optimal pinv,alpha: 0.377, 0.655 / LogL: -196812.929
+
+Parameters optimization took 1317.857 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.336171 secs using 419% CPU
+Computing ML distances took 0.345623 sec (of wall-clock time) 1.448271 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00039196 secs using 415.3% CPU
+Constructing RapidNJ tree: done in 0.00226498 secs using 326.9% CPU
+Computing RapidNJ tree took 0.003033 sec (of wall-clock time) 0.012994 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -197975.610
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 42.420 second
+Computing log-likelihood of 98 initial trees ... 115.956 seconds
+Current best score: -196812.929
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -196790.795
+Iteration 10 / LogL: -196793.022 / Time: 0h:27m:47s
+Iteration 20 / LogL: -196793.457 / Time: 0h:31m:31s
+Finish initializing candidate tree set (1)
+Current best tree score: -196790.795 / CPU time: 565.583
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -196779.684
+Iteration 30 / LogL: -196815.410 / Time: 0h:37m:33s (2h:0m:24s left)
+Iteration 40 / LogL: -196781.763 / Time: 0h:41m:51s (1h:29m:3s left)
+Iteration 50 / LogL: -196780.456 / Time: 0h:46m:13s (1h:8m:50s left)
+Log-likelihood cutoff on original alignment: -196869.270
+Iteration 60 / LogL: -196797.546 / Time: 0h:50m:33s (0h:53m:58s left)
+Iteration 70 / LogL: -196785.754 / Time: 2h:0m:37s (1h:32m:39s left)
+Iteration 80 / LogL: -196781.980 / Time: 2h:5m:15s (1h:8m:10s left)
+Iteration 90 / LogL: -196780.932 / Time: 2h:9m:47s (0h:48m:7s left)
+Iteration 100 / LogL: -196789.927 / Time: 2h:13m:52s (0h:31m:6s left)
+Log-likelihood cutoff on original alignment: -196861.929
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 110 / LogL: -196781.043 / Time: 2h:17m:45s (1h:53m:44s left)
+Iteration 120 / LogL: -196785.609 / Time: 2h:21m:48s (1h:35m:19s left)
+TREE SEARCH COMPLETED AFTER 124 ITERATIONS / Time: 2h:23m:22s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -196779.684
+2. Current log-likelihood: -196779.653
+3. Current log-likelihood: -196779.633
+4. Current log-likelihood: -196779.611
+5. Current log-likelihood: -196779.595
+6. Current log-likelihood: -196779.582
+7. Current log-likelihood: -196779.571
+Optimal log-likelihood: -196779.560
+Proportion of invariable sites: 0.372
+Gamma shape alpha: 0.641
+Parameters optimization took 7 rounds (25.312 sec)
+BEST SCORE FOUND : -196779.560
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+21.107 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file 06_phylogeny/iqtree_subset87/final_tree.splits.nex
+Total tree length: 1.639
+
+Total number of iterations: 124
+CPU time used for tree search: 13072.597 sec (3h:37m:52s)
+Wall-clock time used for tree search: 7276.014 sec (2h:1m:16s)
+Total CPU time used: 18543.182 sec (5h:9m:3s)
+Total wall-clock time used: 8649.486 sec (2h:24m:9s)
+
+Computing bootstrap consensus tree...
+Reading input file 06_phylogeny/iqtree_subset87/final_tree.splits.nex...
+87 taxa and 244 splits.
+Consensus tree written to 06_phylogeny/iqtree_subset87/final_tree.contree
+Reading input trees file 06_phylogeny/iqtree_subset87/final_tree.contree
+Log-likelihood of consensus tree: -196779.775
+
+Analysis results written to: 
+  IQ-TREE report:                06_phylogeny/iqtree_subset87/final_tree.iqtree
+  Maximum-likelihood tree:       06_phylogeny/iqtree_subset87/final_tree.treefile
+  Likelihood distances:          06_phylogeny/iqtree_subset87/final_tree.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          06_phylogeny/iqtree_subset87/final_tree.splits.nex
+  Consensus tree:                06_phylogeny/iqtree_subset87/final_tree.contree
+  Screen log file:               06_phylogeny/iqtree_subset87/final_tree.log
+
+Date and Time: Mon Oct  5 22:34:01 2026

@@ -1,0 +1,62 @@
+BACILLUS AMR PROJECT
+FIGURE 2 - SPECIES RESISTOME PREVALENCE HEATMAP
+
+Species: 16
+AMR determinants: 33
+Values: within-species prevalence (%)
+Species ordering: hierarchical clustering, Euclidean distance, average linkage
+Determinant ordering: hierarchical clustering, Euclidean distance, average linkage
+Clustering purpose: descriptive visualization only
+
+SPECIES ORDER
+Bacillus subtilis
+Bacillus toyonensis
+Bacillus mycoides
+Bacillus wiedmannii
+Bacillus cereus
+Bacillus thuringiensis
+Bacillus licheniformis
+Bacillus paralicheniformis
+Bacillus atrophaeus
+Bacillus amyloliquefaciens
+Bacillus velezensis
+Bacillus halotolerans
+Bacillus pumilus
+Bacillus altitudinis
+Bacillus pseudomycoides
+Bacillus safensis
+
+DETERMINANT ORDER
+satA
+fosB
+bla
+bla2
+mphK
+blaP
+erm(D)
+clbA
+blaBPU
+cat86
+blaBAT
+mleBCA
+mphL
+tet(L)
+aadK
+vmlR
+abaF
+mphM
+blaBSU
+emrC
+catA1
+blaTEM
+aph(3')-IIa
+fosBx1
+msr(D)
+aph(3')-IIIa
+ant(9)-Ia
+erm(B)
+blaIII
+vanR-A
+vanS-Pt
+mleBCB
+tet(45)

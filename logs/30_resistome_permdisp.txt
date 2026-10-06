@@ -1,0 +1,15 @@
+BACILLUS AMR PROJECT
+STEP 30 - MULTIVARIATE DISPERSION OF RESISTOME COMPOSITION
+
+Distance: Jaccard
+Grouping factor: Species_normalized
+Center: centroid
+Permutations: 999
+
+method name: PERMDISP
+test statistic name: F-value
+sample size: 1082
+number of groups: 16
+test statistic: 28.473100175932707
+p-value: 0.001
+number of permutations: 999

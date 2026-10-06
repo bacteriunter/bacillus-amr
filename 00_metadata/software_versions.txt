@@ -1,0 +1,17 @@
+BACILLUS AMR PROJECT
+Generated: 2026-10-02T15:33:24-06:00
+
+Conda environment: bacillus_amr
+
+=== NCBI Datasets ===
+datasets version: 18.38.0
+
+=== Dataformat ===
+Executable: /home/bacte/miniconda3/envs/bacillus_amr/bin/dataformat
+Version output: undefined
+
+=== SeqKit ===
+seqkit v2.14.0
+
+=== Python ===
+Python 3.10.18

@@ -1,0 +1,16 @@
+BACILLUS AMR PROJECT
+STEP 16 - EXTRACT ±10 KB AMR CONTEXT WINDOWS
+
+Physical AMR loci: 41
+Target flank: 10000 bp per side
+Complete contexts: 24
+Truncated left: 6
+Truncated right: 1
+Truncated both: 10
+
+Minimum window length: 530 bp
+Maximum window length: 21272 bp
+
+Combined FASTA: /home/bacte/bacillus_amr/08_genomic_context/sporadic_amr_context_10kb.fna
+Metadata table: /home/bacte/bacillus_amr/08_genomic_context/sporadic_amr_context_windows.tsv
+Individual FASTA directory: /home/bacte/bacillus_amr/08_genomic_context/windows_10kb

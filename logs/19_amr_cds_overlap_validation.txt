@@ -1,0 +1,17 @@
+BACILLUS AMR PROJECT
+STEP 19 - AMR/CDS OVERLAP VALIDATION
+
+Physical AMR loci: 41
+Loci overlapping >=1 predicted CDS: 41
+Loci without predicted CDS overlap: 0
+Strand matches: 41
+
+AMR coverage by predicted CDS (%):
+count     41.000000
+mean      99.328385
+std        3.002617
+min       86.231884
+25%      100.000000
+50%      100.000000
+75%      100.000000
+max      100.000000

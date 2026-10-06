@@ -1,0 +1,14 @@
+protein_id	IS_reference	pident	alignment_length	query_length	subject_length	query_coverage_pct	evalue	bitscore	reference_annotation	IS_hit_accepted	classification
+L002_GCF_002566845.1_abaF_15	IS231E	92.678	478	479	478	99	0.0	923.0	IS231E ~~~~~~IS4 family transposase IS231E~~~COG3385	True	accepted
+L017_GCF_002575305.1_mphM_1	ISBce5	93.548	403	404	476	99	0.0	789.0	ISBce5 ~~~~~~IS4 family transposase ISBce5~~~COG3385	True	accepted
+L018_GCF_002575365.1_mphM_29	ISBce5	92.758	359	363	476	99	0.0	698.0	ISBce5 ~~~~~~IS4 family transposase ISBce5~~~COG3385	True	accepted
+L019_GCF_002575895.1_mphM_4	ISBce10	97.479	476	523	476	91	0.0	956.0	ISBce10 ~~~~~~IS4 family transposase ISBce10~~~COG3385	True	accepted
+L024_GCF_002568725.1_fosB_8	IS231H	93.305	478	479	478	99	0.0	906.0	IS231H ~~~~~~IS4 family transposase IS231H~~~COG3385	True	accepted
+L025_GCF_002580975.1_fosB_12	ISBsu3	43.357	143	146	145	98	5.4099999999999995e-42	134.0	ISBsu3 ~~~~~~IS1595 family transposase ISBsu3~~~	True	accepted
+L025_GCF_002580975.1_fosB_18	ISBth20	79.535	215	216	228	99	7.580000000000001e-129	360.0	ISBth20 ~~~~~~IS6 family transposase ISBth20~~~	True	accepted
+L026_GCF_036962425.1_fosB_3	IS231H	84.956	226	227	478	99	1.19e-131	377.0	IS231H ~~~~~~IS4 family transposase IS231H~~~COG3385	True	accepted
+L026_GCF_036962425.1_fosB_4	IS231H	89.604	202	243	478	83	7.54e-135	385.0	IS231H ~~~~~~IS4 family transposase IS231H~~~COG3385	True	accepted
+L026_GCF_036962425.1_fosB_10	ISBth17	91.421	373	374	378	99	0.0	713.0	ISBth17 ~~~~~~IS200/IS605 family transposase ISBth17~~~	True	accepted
+L038_GCF_002555155.1_mleBCB_8	MICBce6	48.83	342	721	389	90	2.29e-102	317.0	MICBce6 ~~~~~~IS4 family transposase MICBce6~~~COG3385	True	accepted
+L039_GCF_002555305.1_mleBCB_12	MICBce6	49.123	342	721	389	90	1.6400000000000002e-103	320.0	MICBce6 ~~~~~~IS4 family transposase MICBce6~~~COG3385	True	accepted
+L040_GCF_002555385.1_mphM_1	MICBce1	97.479	238	239	389	99	2.3899999999999998e-170	472.0	MICBce1 ~~~~~~IS4 family transposase MICBce1~~~COG3385	True	accepted

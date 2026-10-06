@@ -1,0 +1,15 @@
+BACILLUS AMR PROJECT
+Step 02: Build master metadata table
+Date: 2026-10-02T15:40:41-06:00
+
+Input: /home/bacte/bacillus_amr/00_metadata/bacillus_refseq_summary.jsonl
+Output: /home/bacte/bacillus_amr/00_metadata/bacillus_master_metadata.tsv
+
+Rows including header:
+14112 /home/bacte/bacillus_amr/00_metadata/bacillus_master_metadata.tsv
+
+Output size:
+-rw-r--r-- 1 bacte bacte 3.2M Oct  2 15:40 /home/bacte/bacillus_amr/00_metadata/bacillus_master_metadata.tsv
+
+SHA256:
+eb39d9ff9443a517e05d3f8bca2a9cfa0d2deb496b060f1477f213abcc0f2131  /home/bacte/bacillus_amr/00_metadata/bacillus_master_metadata.tsv

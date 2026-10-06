@@ -1,0 +1,11 @@
+BACILLUS AMR PROJECT
+STEP 20 - FILTER IS PROTEIN HITS
+
+Operational acceptance criteria:
+Identity >= 40%
+Query coverage >= 70%
+E-value <= 1e-10
+
+Proteins with BLAST hit: 18
+Accepted IS-associated proteins: 13
+Rejected weak/partial hits: 5

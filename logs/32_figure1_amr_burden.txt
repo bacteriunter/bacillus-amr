@@ -1,0 +1,29 @@
+BACILLUS AMR PROJECT
+FIGURE 1 - AMR BURDEN BY SPECIES
+
+Genomes plotted: 1082
+Species plotted: 16
+Inclusion criterion: species-level assignment with n >= 10 genomes
+
+Species order (descending mean burden):
+Bacillus thuringiensis	n=141	mean=5.4184	median=5.0000
+Bacillus wiedmannii	n=41	mean=5.0488	median=5.0000
+Bacillus cereus	n=116	mean=4.9828	median=5.0000
+Bacillus subtilis	n=103	mean=4.5437	median=5.0000
+Bacillus toyonensis	n=86	mean=4.5233	median=4.0000
+Bacillus mycoides	n=20	mean=2.7500	median=3.0000
+Bacillus paralicheniformis	n=19	mean=2.0526	median=2.0000
+Bacillus atrophaeus	n=12	mean=2.0000	median=2.0000
+Bacillus pumilus	n=34	mean=1.9118	median=2.0000
+Bacillus amyloliquefaciens	n=36	mean=1.8056	median=2.0000
+Bacillus velezensis	n=288	mean=1.6910	median=2.0000
+Bacillus halotolerans	n=38	mean=1.6842	median=2.0000
+Bacillus licheniformis	n=20	mean=1.2500	median=1.0000
+Bacillus altitudinis	n=46	mean=0.6522	median=1.0000
+Bacillus safensis	n=50	mean=0.3600	median=0.0000
+Bacillus pseudomycoides	n=32	mean=0.1562	median=0.0000
+
+Statistics associated with figure:
+Kruskal-Wallis H = 876.402007
+p = 3.953134e-177
+Dunn post hoc with Benjamini-Hochberg correction: 81/120 comparisons q < 0.05

@@ -1,0 +1,29 @@
+ 1513  "$HOME/miniconda3/envs/bacillus_ecogenomics/bin/iqtree"     -s 06_phylogeny/gtotree_firmicutes/Aligned_SCGs.faa     -m TESTONLY     --msub nuclear     --merit BIC     -T 2     --mem 3G     --prefix 06_phylogeny/iqtree_test/modelfinder_nuclear
+ 1637  seqkit grep     -f 06_phylogeny/phylogenetic_subset_accessions.txt     06_phylogeny/gtotree_firmicutes/Aligned_SCGs.faa     > 06_phylogeny/Aligned_SCGs_subset87.faa
+ 1638  seqkit stats 06_phylogeny/Aligned_SCGs_subset87.faa
+ 1640  "$HOME/miniconda3/envs/bacillus_ecogenomics/bin/iqtree"     -s 06_phylogeny/Aligned_SCGs_subset87.faa     -m TESTONLY     -T 4     --prefix 06_phylogeny/iqtree_subset87/modelfinder
+ 1641  tail -20 06_phylogeny/iqtree_subset87/modelfinder.log
+ 1642  "$HOME/miniconda3/envs/bacillus_ecogenomics/bin/iqtree"     -s 06_phylogeny/Aligned_SCGs_subset87.faa     -m Q.PLANT+F+I+G4     -B 1000     -alrt 1000     -T 4     --prefix 06_phylogeny/iqtree_subset87/final_tree
+ 1645  grep -E "Number of sequences|Best-fit model|Log-likelihood of the tree|Total tree length" 06_phylogeny/iqtree_subset87/final_tree.iqtree
+ 1647  grep -E "Number of sequences|Best-fit model|Log-likelihood of the tree|Total tree length" 06_phylogeny/iqtree_subset87/final_tree.iqtree
+ 1648  seqkit seq -n 06_phylogeny/Aligned_SCGs_subset87.faa | wc -l
+ 1649  grep -o "GCF_[0-9]*\.[0-9]*" 06_phylogeny/iqtree_subset87/final_tree.treefile | sort -u | wc -l
+ 1736  blastp   -query 08_genomic_context/prodigal_meta/L002_GCF_002566845.1_abaF.faa   -db "$CONDA_PREFIX/db/kingdom/Bacteria/IS"   -evalue 1e-10   -outfmt "6 qseqid sseqid pident length qlen slen qcovs evalue bitscore stitle"   -max_target_seqs 1   -num_threads 2   > /tmp/L002_IS_hits.tsv
+ 1741  cat 08_genomic_context/prodigal_meta/*.faa   > 08_genomic_context/context_all_proteins.faa
+ 1743  grep -c '^>' 08_genomic_context/context_all_proteins.faa
+ 1746  blastp   -query 08_genomic_context/context_all_proteins.faa   -db "$CONDA_PREFIX/db/kingdom/Bacteria/IS"   -evalue 1e-10   -outfmt "6 qseqid sseqid pident length qlen slen qcovs evalue bitscore stitle"   -max_target_seqs 5   -num_threads 4   > 08_genomic_context/context_IS_blastp_raw.tsv
+ 1748  wc -l < 08_genomic_context/context_IS_blastp_raw.tsv
+ 1751  cut -f1 08_genomic_context/context_IS_blastp_raw.tsv | sort -u | wc -l
+ 1754  head -20 08_genomic_context/context_IS_blastp_raw.tsv
+ 1755  awk -F'\t' '!seen[$1]++'   08_genomic_context/context_IS_blastp_raw.tsv   > 08_genomic_context/context_IS_best_hits.tsv
+ 1783  blastp   -query 08_genomic_context/context_all_proteins.faa   -db "$CONDA_PREFIX/db/kingdom/Bacteria/sprot"   -evalue 1e-10   -outfmt "6 qseqid sseqid pident length qlen slen qcovs evalue bitscore stitle"   -max_target_seqs 5   -num_threads 4   > 08_genomic_context/context_sprot_blastp_raw.tsv
+ 1785  wc -l < 08_genomic_context/context_sprot_blastp_raw.tsv
+ 1788  cut -f1 08_genomic_context/context_sprot_blastp_raw.tsv | sort -u | wc -l
+ 1791  grep -Ei 'integrase|recombinase|resolvase|relaxase|mobilization|conjugat|transposase'   08_genomic_context/context_sprot_blastp_raw.tsv | wc -l
+ 1794  grep -Ei 'integrase|recombinase|resolvase|relaxase|mobilization|conjugat|transposase'   08_genomic_context/context_sprot_blastp_raw.tsv | head -20
+ 1795  grep '^L024_GCF_002568725.1_fosB_13	'   08_genomic_context/context_sprot_blastp_raw.tsv   | column -t -s $'\t'
+ 1814  head -c 1000 06_phylogeny/iqtree_subset87/final_tree.treefile
+    "06_phylogeny/iqtree_subset87/final_tree.treefile"
+    "06_phylogeny/iqtree_subset87/final_tree.treefile",
+    "06_phylogeny/iqtree_subset87/final_tree.treefile",
+ 1918  history | grep -E 'Aligned_SCGs_subset87|modelfinder|final_tree|context_all_proteins|context_IS_blastp|context_sprot_blastp|blastp' > logs/snakefile_command_audit.txt

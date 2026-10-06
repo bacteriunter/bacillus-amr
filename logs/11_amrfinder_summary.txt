@@ -1,0 +1,15 @@
+BACILLUS AMR PROJECT
+STEP 11 - AMRFinderPlus SUMMARY
+
+AMRFinder result files: 1312
+Total hits (--plus): 11352
+Genomes with any hit: 1222
+AMR hits: 3913
+Genomes with >=1 AMR hit: 1181
+Genomes without AMR hits: 131
+
+Hits by Type:
+     Type  Hit_count
+VIRULENCE       7166
+      AMR       3913
+   STRESS        273

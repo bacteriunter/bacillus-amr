@@ -1,0 +1,4 @@
+##gff-version  3
+# Sequence Data: seqnum=1;seqlen=1011;seqhdr="L013_GCF_040151275.1_blaTEM locus=L013_GCF_040151275.1_blaTEM_NZ_JAXOWG010000016.1_262-1011 contig=NZ_JAXOWG010000016.1 window=1-1011 AMR=262-1011 strand=- context=truncated_both"
+# Model Data: version=Prodigal.v2.6.3;run_type=Metagenomic;model="17|Desulfotomaculum_acetoxidans_DSM_771|B|41.5|11|1";gc_cont=41.60;transl_table=11;uses_sd=1
+L013_GCF_040151275.1_blaTEM	Prodigal_v2.6.3	CDS	259	1011	64.6	-	0	ID=1_1;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.498;conf=100.00;score=64.61;cscore=61.39;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;

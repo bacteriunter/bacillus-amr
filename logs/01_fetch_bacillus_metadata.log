@@ -1,0 +1,16 @@
+BACILLUS AMR PROJECT
+Step 01: Retrieve Bacillus RefSeq assembly metadata
+Date: 2026-10-02T15:36:51-06:00
+
+Taxon: Bacillus (NCBI Taxonomy ID: 1386)
+Assembly source: RefSeq
+
+
+Records retrieved:
+14111 /home/bacte/bacillus_amr/00_metadata/bacillus_refseq_summary.jsonl
+
+Output file:
+-rw-r--r-- 1 bacte bacte 52M Oct  2 15:37 /home/bacte/bacillus_amr/00_metadata/bacillus_refseq_summary.jsonl
+
+SHA256:
+c520da485c33ffe6fb8d924e0413870eb5e24e7fd3e6d3a99f7f2b575da881a2  /home/bacte/bacillus_amr/00_metadata/bacillus_refseq_summary.jsonl

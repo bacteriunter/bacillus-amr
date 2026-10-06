@@ -1,0 +1,8 @@
+BACILLUS AMR PROJECT
+STEP 26 - INTEGRATED EVIDENCE FOR SPORADIC AMR DETERMINANTS
+
+Species-determinant cases: 21
+Cases with local mobility evidence: 5
+Cases with IS-associated proteins: 5
+Cases with recombinase/resolvase evidence: 1
+Cases with explicit NCBI plasmid annotation: 0

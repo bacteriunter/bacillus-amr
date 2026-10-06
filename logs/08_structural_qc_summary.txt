@@ -1,0 +1,15 @@
+BACILLUS AMR PROJECT
+STEP 08 - STRUCTURAL GENOME QC
+
+Criteria:
+FAIL if Num_contigs > 500 OR N50 < 20000 bp
+
+Total genomes: 1374
+PASS: 1312
+FAIL: 62
+PASS percentage: 95.49%
+FAIL percentage: 4.51%
+
+Only >500 contigs: 37
+Only N50 <20000: 2
+Both criteria: 23

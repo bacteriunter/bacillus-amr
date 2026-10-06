@@ -1,0 +1,130 @@
+# ============================================================
+# BACILLUS AMR PROJECT
+# Files excluded from version control because they are
+# downloadable, reproducible, temporary, or failed/test outputs.
+# ============================================================
+
+
+# ------------------------------------------------------------
+# Operating system / editors / Python
+# ------------------------------------------------------------
+
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+
+# ------------------------------------------------------------
+# Conda / environments
+# ------------------------------------------------------------
+
+.conda/
+.env/
+venv/
+env/
+
+
+# ------------------------------------------------------------
+# NCBI downloaded genome data
+# Reconstructed from accession list and download scripts
+# ------------------------------------------------------------
+
+01_genomes/ncbi_dataset/
+01_genomes/*.zip
+
+
+# ------------------------------------------------------------
+# Raw NCBI RefSeq metadata snapshot
+# Large and reproducible from Step 01
+# ------------------------------------------------------------
+
+00_metadata/bacillus_refseq_summary.jsonl
+
+
+# ------------------------------------------------------------
+# Downloaded protein packages for phylogenomics
+# Reproducible from NCBI accessions
+# ------------------------------------------------------------
+
+06_phylogeny/proteins_package/
+
+
+# ------------------------------------------------------------
+# Symlink collection pointing to downloaded protein files
+# ------------------------------------------------------------
+
+06_phylogeny/proteins_unique/
+
+
+# ------------------------------------------------------------
+# Failed / exploratory phylogenetic runs
+# Not part of the final methodology
+# ------------------------------------------------------------
+
+06_phylogeny/iqtree_test/
+06_phylogeny/gtotree_test*/
+
+
+# ------------------------------------------------------------
+# Large full-dataset GToTree concatenated alignment
+# Reconstructed by the workflow; final reduced alignment retained
+# ------------------------------------------------------------
+
+06_phylogeny/gtotree_firmicutes/Aligned_SCGs.faa
+
+
+# ------------------------------------------------------------
+# Experimental Prokka context runs
+# Superseded by uniform Prodigal -p meta workflow
+# ------------------------------------------------------------
+
+08_genomic_context/prokka/
+08_genomic_context/prokka_test/
+08_genomic_context/prokka_meta_test/
+
+
+# ------------------------------------------------------------
+# Temporary files
+# ------------------------------------------------------------
+
+*.tmp
+*.temp
+*.bak
+
+
+# ------------------------------------------------------------
+# Snakemake runtime files
+# ------------------------------------------------------------
+
+.snakemake/
+
+
+# ------------------------------------------------------------
+# Large Conda/package caches if accidentally created locally
+# ------------------------------------------------------------
+
+pkgs/
+cache/
+
+# ------------------------------------------------------------
+# Raw per-genome AMRFinderPlus outputs
+# Reconstructed by the workflow; consolidated tables retained
+# ------------------------------------------------------------
+
+05_amr/amrfinder_raw/
+
+# ------------------------------------------------------------
+# Test and reconstructable phylogenomics files
+# ------------------------------------------------------------
+
+05_amr/test_amrfinder.tsv
+06_phylogeny/test_5_proteomes.txt
+06_phylogeny/proteins_dehydrated.zip
+06_phylogeny/qc_passed_ncbi_summary.jsonl
+06_phylogeny/protein_faa_paths.txt
+06_phylogeny/protein_faa_unique_paths.txt

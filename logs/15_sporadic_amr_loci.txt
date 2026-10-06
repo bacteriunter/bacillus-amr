@@ -1,0 +1,11 @@
+BACILLUS AMR PROJECT
+STEP 15 - MAP SPORADIC AMR LOCI
+
+Unique carrier genomes: 39
+Genome-determinant cases: 40
+Physical AMR loci: 41
+Cases with >1 physical locus: 1
+
+MULTI-LOCUS CASES
+      accession  determinant  n_loci
+GCF_022370935.1 aph(3')-IIIa       2
